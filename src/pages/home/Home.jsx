@@ -11,10 +11,22 @@ const Home = () => {
     <>
       <Box sx={{ background: 'black', display: 'flex', justifyContent: 'center', p: 2 }}>
         <Typography variant='body1' sx={{ textTransform: 'uppercase', fontWeight: 'bold' }}>
-          <span style={{ color: theme.palette.primary.main }}>Experience ExtremeFit </span>
-          <span style={{ color: 'white' }}>Our Premier Studio Classes</span>
+          <span style={{ color: theme.palette.primary.main }}>
+            {!isMobile && (<span>Experience </span>)}
+            ExtremeFit{' '}
+          </span>
+          {!isMobile && (<span style={{ color: 'white' }}>Our Premier Studio Classes</span>)}
         </Typography>
-        <Link href='#' sx={{ textTransform: 'uppercase', fontWeight: 'bold', ml: 2 }}>Learn More</Link>
+        <Link 
+          href='#' 
+          sx={{ 
+            textTransform: 'uppercase', 
+            fontWeight: 'bold', 
+            ml: 2, 
+            color: isMobile ? 'white' : 'primary'
+          }}>
+            Learn More
+        </Link>
       </Box>
       <img id='hero' src={hero} alt='Weight Lifter' />
       <Box sx={{ display: 'block', textAlign: 'center', my: 6 }}>
