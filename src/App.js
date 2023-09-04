@@ -5,7 +5,7 @@ import Home from './pages/home/Home';
 
 const App = () => {
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={responsiveFontSizes(theme)}>
       <CssBaseline />
       <Home />
     </ThemeProvider>

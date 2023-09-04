@@ -1,10 +1,11 @@
 import { useTheme } from '@mui/material/styles';
-import { Box, Link, Typography } from '@mui/material';
+import { Box, Link, Typography, useMediaQuery } from '@mui/material';
 import hero from '../../assets/hero.jpg'
 import CommunityImages from './CommunityImages';
 
 const Home = () => {
   const theme = useTheme();
+  const isMobile = useMediaQuery(theme => theme.breakpoints.down('md'));
 
   return (
     <>
