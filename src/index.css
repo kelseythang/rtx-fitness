@@ -17,3 +17,27 @@ img {
   width: 100%;
   height: '900px';
 }
+/* NavBar Button Settings */
+
+.slanted-button {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+  transform: skew(-10deg);
+  cursor: pointer;
+}
+
+#slanted-button-trial {
+  background-color: white;
+  color: black;
+}
+
+#slanted-button-login {
+  background-color: #f44336;
+  color: white;
+}

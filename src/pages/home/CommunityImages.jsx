@@ -23,16 +23,16 @@ const CommunityImages = () => {
         <Container sx={{ display: 'flex', justifyContent: 'center' }}>
           <Grid container spacing={2}>
             <Grid>
-              <img class='img-slider' src={img1} alt='Fitness Image' />
+              <img className='img-slider' src={img1} alt='Fitness Image' />
             </Grid>
             <Grid>
-              <img class='img-slider' src={img2} alt='Fitness Image' />
+              <img className='img-slider' src={img2} alt='Fitness Image' />
             </Grid>
             <Grid>
-              <img class='img-slider' src={img3} alt='Fitness Image' />
+              <img className='img-slider' src={img3} alt='Fitness Image' />
             </Grid>
             <Grid>
-              <img class='img-slider' src={img4} alt='Fitness Image' />
+              <img className='img-slider' src={img4} alt='Fitness Image' />
             </Grid>
           </Grid>
         </Container>

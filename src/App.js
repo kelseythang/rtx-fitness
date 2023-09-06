@@ -1,13 +1,32 @@
+import { Routes, Route } from 'react-router-dom';
 import { ThemeProvider, responsiveFontSizes } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import theme from './contexts/ThemeContext';
+import NavBar from './pages/navigation/NavBar';
 import Home from './pages/home/Home';
+import Membership from './pages/membership/Membership';
+import Locations from './pages/locations/Locations';
+import Amenities from './pages/amenities/Amenities';
+import Classes from './pages/classes/Classes';
+import About from './pages/about/About';
+import Promo from './pages/auth/Promo';
+import Login from './pages/auth/Login';
 
 const App = () => {
   return (
     <ThemeProvider theme={responsiveFontSizes(theme)}>
       <CssBaseline />
-      <Home />
+      <NavBar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/membership-plans' element={<Membership />} />
+        <Route path='/locations' element={<Locations />} />
+        <Route path='/amenities' element={<Amenities />} />
+        <Route path='/classes' element={<Classes />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/promo-offer' element={<Promo />} />
+        <Route path='/login' element={<Login />} />
+      </Routes>
     </ThemeProvider>
   )
 }

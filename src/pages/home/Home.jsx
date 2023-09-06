@@ -13,7 +13,7 @@ const Home = () => {
         <Typography variant='body1' sx={{ textTransform: 'uppercase', fontWeight: 'bold' }}>
           <span style={{ color: theme.palette.primary.main }}>
             {!isMobile && (<span>Experience </span>)}
-            ExtremeFit{' '}
+            ExtremeFit®{' '}
           </span>
           {!isMobile && (<span style={{ color: 'white' }}>Our Premier Studio Classes</span>)}
         </Typography>
@@ -29,7 +29,7 @@ const Home = () => {
         </Link>
       </Box>
       <img id='hero' src={hero} alt='Weight Lifter' />
-      <Box sx={{ display: 'block', textAlign: 'center', my: 6 }}>
+      <Box sx={{ display: 'block', textAlign: 'center', my: 6, mx: 2 }}>
         <Typography variant='h4' color='primary' sx={{ textTransform: 'uppercase', fontWeight: 900, mb: 2 }}>
           Get Strong, Feel Healthy, Improve Your Lifestyle
         </Typography>
