@@ -11,6 +11,7 @@ import Classes from './pages/classes/Classes';
 import About from './pages/about/About';
 import Promo from './pages/auth/Promo';
 import Login from './pages/auth/Login';
+import Footer from './pages/footer/Footer';
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
         <Route path='/promo-offer' element={<Promo />} />
         <Route path='/login' element={<Login />} />
       </Routes>
+      <Footer />
     </ThemeProvider>
   )
 }

@@ -41,3 +41,10 @@ img {
   background-color: #f44336;
   color: white;
 }
+
+/* Bottom Navigation Settings */
+
+.bottom-nav {
+  color: #9e9e9e;
+  text-transform: uppercase;
+}
