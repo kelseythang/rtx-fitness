@@ -8,7 +8,7 @@ const Home = () => {
   const isMobile = useMediaQuery(theme => theme.breakpoints.down('md'));
 
   return (
-    <>
+    <Box className='container'>
       <Box sx={{ background: 'black', display: 'flex', justifyContent: 'center', p: 2 }}>
         <Typography variant='body1' sx={{ textTransform: 'uppercase', fontWeight: 'bold' }}>
           <span style={{ color: theme.palette.primary.main }}>
@@ -38,7 +38,7 @@ const Home = () => {
         </Typography>
       </Box>
       <CommunityImages />
-    </>
+    </Box>
   )
 }
 
