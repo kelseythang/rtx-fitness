@@ -20,7 +20,7 @@ const Membership = () => {
         background='black'
         titleColor={redTheme}
         textColor={defaultText}
-        type='RTX Membership'
+        type='ExtremeFit Membership'
         description='Experience boutique-style HIIT classes without the boutique studio price! 
           Our RTX membership offers up our most premium fitness experience. Step 
           into RTX for the ultimate HIIT workout.'
