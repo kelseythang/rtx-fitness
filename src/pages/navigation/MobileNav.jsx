@@ -13,7 +13,7 @@ const MobileNav = ({ onHandleOpenNavMenu, onHandleCloseNavMenu, anchorElNav }) =
     ['Amenities', 'amenities'],
     ['Classes', 'classes'],
     ['About', 'about'],
-    ['Free Trial', 'entry-offer'],
+    ['Free Trial', 'promo-offer'],
     ['Login', 'login']
   ]
 

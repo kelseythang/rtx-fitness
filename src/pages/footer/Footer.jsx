@@ -18,7 +18,7 @@ const Footer = () => {
   return (
     <Box sx={{ background: theme.palette.secondary.main, py: 4 }}>
       <Container maxWidth='lg'>
-        <Divider fullWidth sx={{ backgroundColor: 'neutral.main' }} />
+        <Divider sx={{ backgroundColor: 'neutral.main', width: '100%' }} />
         <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
           <Box sx={{ display: { xs: 'none', md: 'flex' }, mt: 2 }}>
             {['Career', 'Support', 'Privacy', 'Terms'].map(link => (

@@ -12,11 +12,13 @@ import About from './pages/about/About';
 import Promo from './pages/auth/Promo';
 import Login from './pages/auth/Login';
 import Footer from './pages/footer/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 const App = () => {
   return (
     <ThemeProvider theme={responsiveFontSizes(theme)}>
       <CssBaseline />
+      <ScrollToTop />
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
