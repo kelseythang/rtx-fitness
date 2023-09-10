@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/rtx-fitness/static/css/main.10561427.css",
+    "main.js": "/rtx-fitness/static/js/main.05c9019c.js",
+    "static/media/membership_type_three.jpg": "/rtx-fitness/static/media/membership_type_three.5ee098b111aeea10ad87.jpg",
+    "static/media/membership_type_one.jpg": "/rtx-fitness/static/media/membership_type_one.fb72f46f2768bf6a3905.jpg",
+    "static/media/hero.jpg": "/rtx-fitness/static/media/hero.2867fe5374730b3dc553.jpg",
+    "static/media/trial.jpg": "/rtx-fitness/static/media/trial.248857a50849a6acc47f.jpg",
+    "static/media/membership_type_two.jpg": "/rtx-fitness/static/media/membership_type_two.833aaac3555eaeb11c00.jpg",
+    "static/media/membership.jpg": "/rtx-fitness/static/media/membership.894eb92616e5fdc8d5b9.jpg",
+    "static/media/community_one.jpg": "/rtx-fitness/static/media/community_one.0acf5eb51526e7712d2d.jpg",
+    "static/media/community_three.jpg": "/rtx-fitness/static/media/community_three.bad675123d5b463ec4ed.jpg",
+    "static/media/community_two.jpg": "/rtx-fitness/static/media/community_two.1df6dd7da8b2eadb741a.jpg",
+    "static/media/community_four.jpg": "/rtx-fitness/static/media/community_four.4296360d125f706d608c.jpg",
+    "index.html": "/rtx-fitness/index.html",
+    "main.10561427.css.map": "/rtx-fitness/static/css/main.10561427.css.map",
+    "main.05c9019c.js.map": "/rtx-fitness/static/js/main.05c9019c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10561427.css",
+    "static/js/main.05c9019c.js"
+  ]
+}
