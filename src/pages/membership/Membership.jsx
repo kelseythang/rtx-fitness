@@ -1,39 +1,20 @@
 import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import useMediaQuery from '@mui/material/useMediaQuery';
 import headerImg from '../../assets/membership.jpg';
 import MembershipType from './MembershipType';
 import membershipOneImg from '../../assets/membership_type_one.jpg';
 import membershipTwoImg from '../../assets/membership_type_two.jpg';
 import membershipThreeImg from '../../assets/membership_type_three.jpg';
+import StandardHeader from '../../components/StandardHeader';
 
 const Membership = () => {
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme => theme.breakpoints.down('md'));
   const redTheme = theme.palette.primary.main;
   const defaultText = theme.palette.text.primary;
 
   return (
     <Box className='container' >
-      <Box 
-        style={{ 
-          backgroundImage: `url(${headerImg})`,
-          backgroundSize: 'cover', 
-          height: isMobile ? '150px' : '300px'
-        }}
-        className='header'
-      >
-        <Typography 
-          variant='h2' 
-          sx={{ 
-            textTransform: 'uppercase', 
-            fontWeight: 'bold', 
-            color: 'white' 
-        }}>
-          No Annual Commitments
-        </Typography>
-      </Box>
+      <StandardHeader image={headerImg} title='No Annual Commitments' /> 
       <MembershipType 
         image={membershipOneImg} 
         background='black'
