@@ -1,8 +1,14 @@
-import React from 'react'
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+import SectionTitle from '../../components/SectionTitle';
 
 const Classes = () => {
   return (
-    <div className='container'>Classes</div>
+    <Box className='container'>
+      <Container>
+        <SectionTitle title='Coming Soon' titleColor='black' />
+      </Container>
+    </Box>
   )
 }
 

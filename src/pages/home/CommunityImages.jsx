@@ -13,14 +13,16 @@ const CommunityImages = () => {
   return (
     <>
       { isMobile ? (
-        <Carousel>
-          <img src={img1} alt='Gym Class' />
-          <img src={img2} alt='Gym Class' />
-          <img src={img3} alt='Gym Class' />
-          <img src={img4} alt='Gym Class' />
-        </Carousel>
+        <Container sx={{ mb: 2} }>
+          <Carousel>
+            <img src={img1} alt='Gym Class' />
+            <img src={img2} alt='Gym Class' />
+            <img src={img3} alt='Gym Class' />
+            <img src={img4} alt='Gym Class' />
+          </Carousel>
+        </Container>
       ) : (
-        <Container sx={{ display: 'flex', justifyContent: 'center' }}>
+        <Container sx={{ display: 'flex', justifyContent: 'center', mb: 2 }}>
           <Grid container spacing={2}>
             <Grid>
               <img className='img-slider' src={img1} alt='Gym Class' />
