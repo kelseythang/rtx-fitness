@@ -1,17 +1,17 @@
 import Typography from '@mui/material/Typography';
 
-const SectionTitle = ({ title, titleColor }) => {
+const LargeSectionTitle = ({ title, titleColor }) => {
   return (
-    <Typography variant='h4' 
+    <Typography variant='h3' 
       sx={{ 
         textTransform: 'uppercase', 
         fontWeight: 'bold', 
-        color: titleColor,
-        my: 2
+        mb: 4,
+        color: titleColor
     }}>
       {title}
     </Typography>
   )
 }
 
-export default SectionTitle;
+export default LargeSectionTitle;

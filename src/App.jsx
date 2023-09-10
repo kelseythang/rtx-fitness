@@ -9,8 +9,8 @@ import Locations from './pages/locations/Locations';
 import Amenities from './pages/amenities/Amenities';
 import Classes from './pages/classes/Classes';
 import About from './pages/about/About';
-import Promo from './pages/auth/Promo';
-import Login from './pages/auth/Login';
+import Promo from './pages/members/Promo';
+import Join from './pages/members/Join';
 import Footer from './pages/footer/Footer';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -28,7 +28,7 @@ const App = () => {
         <Route path='/classes' element={<Classes />} />
         <Route path='/about' element={<About />} />
         <Route path='/promo-offer' element={<Promo />} />
-        <Route path='/login' element={<Login />} />
+        <Route path='/join' element={<Join />} />
       </Routes>
       <Footer />
     </ThemeProvider>

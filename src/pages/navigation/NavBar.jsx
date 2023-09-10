@@ -42,7 +42,7 @@ const NavBar = () => {
             <MainNav onHandleCloseNavMenu={handleCloseNavMenu} />
             <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
               <Button id='slanted-button-trial' className='slanted-button' component={RouterLink} to='/promo-offer'>Free Trial</Button>
-              <Button id='slanted-button-login' className='slanted-button' component={RouterLink} to='/login'>Login</Button>
+              <Button id='slanted-button-login' className='slanted-button' component={RouterLink} to='/join'>Join</Button>
             </Box>
           </Box>
         </Toolbar>
