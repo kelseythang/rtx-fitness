@@ -11,6 +11,7 @@ import Classes from './pages/classes/Classes';
 import About from './pages/about/About';
 import Promo from './pages/members/Promo';
 import Join from './pages/members/Join';
+import NotFound from './components/NotFound';
 import Footer from './pages/footer/Footer';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -29,6 +30,7 @@ const App = () => {
         <Route path='/about' element={<About />} />
         <Route path='/promo-offer' element={<Promo />} />
         <Route path='/join' element={<Join />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
       <Footer />
     </ThemeProvider>
