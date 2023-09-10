@@ -16,7 +16,7 @@ const Footer = () => {
   const theme = useTheme();
 
   return (
-    <Box sx={{ background: theme.palette.secondary.main, mt: 2, py: 4 }}>
+    <Box sx={{ background: theme.palette.secondary.main, py: 4 }}>
       <Container maxWidth='lg'>
         <Divider fullWidth sx={{ backgroundColor: 'neutral.main' }} />
         <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>

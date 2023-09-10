@@ -52,3 +52,12 @@ img {
   color: #9e9e9e;
   text-transform: uppercase;
 }
+
+/* Standard Header Settings */ 
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
