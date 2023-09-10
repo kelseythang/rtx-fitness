@@ -22,7 +22,7 @@ const App = () => {
       <ScrollToTop />
       <NavBar />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/rtx-fitness' element={<Home />} />
         <Route path='/membership-plans' element={<Membership />} />
         <Route path='/locations' element={<Locations />} />
         <Route path='/amenities' element={<Amenities />} />

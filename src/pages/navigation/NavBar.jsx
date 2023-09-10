@@ -29,7 +29,7 @@ const NavBar = () => {
             <img src={logo} 
               alt='RTX Fitness Logo' 
               height={isMobile ? '50px' : '85px'} 
-              onClick={() => navigate('/')}
+              onClick={() => navigate('/rtx-fitness')}
               style={{ cursor: 'pointer' }}
             />
             {/* Mobile Menu Settings */}
