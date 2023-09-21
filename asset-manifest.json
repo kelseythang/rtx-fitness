@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rtx-fitness/static/css/main.10561427.css",
-    "main.js": "/rtx-fitness/static/js/main.60b6410f.js",
+    "main.js": "/rtx-fitness/static/js/main.0f2b8bbc.js",
     "static/media/membership_type_three.jpg": "/rtx-fitness/static/media/membership_type_three.5ee098b111aeea10ad87.jpg",
     "static/media/membership_type_one.jpg": "/rtx-fitness/static/media/membership_type_one.fb72f46f2768bf6a3905.jpg",
     "static/media/hero.jpg": "/rtx-fitness/static/media/hero.2867fe5374730b3dc553.jpg",
@@ -14,10 +14,10 @@
     "static/media/community_four.jpg": "/rtx-fitness/static/media/community_four.4296360d125f706d608c.jpg",
     "index.html": "/rtx-fitness/index.html",
     "main.10561427.css.map": "/rtx-fitness/static/css/main.10561427.css.map",
-    "main.60b6410f.js.map": "/rtx-fitness/static/js/main.60b6410f.js.map"
+    "main.0f2b8bbc.js.map": "/rtx-fitness/static/js/main.0f2b8bbc.js.map"
   },
   "entrypoints": [
     "static/css/main.10561427.css",
-    "static/js/main.60b6410f.js"
+    "static/js/main.0f2b8bbc.js"
   ]
 }
