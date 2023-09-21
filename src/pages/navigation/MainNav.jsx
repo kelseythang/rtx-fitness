@@ -5,10 +5,10 @@ import Box from '@mui/material/Box';
 const MainNav = ({ onHandleCloseNavMenu }) => {
   const pages = [
     ['Membership', 'membership-plans'], 
-    ['Locations', 'locations'], 
-    ['Amenities', 'amenities'],
-    ['Classes', 'classes'],
-    ['About', 'about']
+    // ['Locations', 'locations'], 
+    // ['Amenities', 'amenities'],
+    // ['Classes', 'classes'],
+    // ['About', 'about']
   ]
 
   return (

@@ -9,10 +9,10 @@ import Typography from '@mui/material/Typography';
 const MobileNav = ({ onHandleOpenNavMenu, onHandleCloseNavMenu, anchorElNav }) => {
   const pages = [
     ['Membership', 'membership-plans'], 
-    ['Locations', 'locations'], 
-    ['Amenities', 'amenities'],
-    ['Classes', 'classes'],
-    ['About', 'about'],
+    // ['Locations', 'locations'], 
+    // ['Amenities', 'amenities'],
+    // ['Classes', 'classes'],
+    // ['About', 'about'],
     ['Free Trial', 'promo-offer'],
     ['Join', 'join']
   ]
